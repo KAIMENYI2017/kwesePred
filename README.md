@@ -33,3 +33,4 @@ fit2
    future=forecast(fit, level=95)
      future
 plot(future,type="l",main='Current and future popularity')#plot predicted series
+ 
