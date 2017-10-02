@@ -11,7 +11,7 @@ kwese1
         cycle(series1)
    plot(aggregate(series1, FUN=mean))
  boxplot(kwese1~cycle(kwese1))
-  abline(reg=lm(kwese1~time(kwese1)))#fitting line of best fit on plot
+  abline(reg=lm(kwese1~time(kwese1))) #fitting line of best fit on plot
  kwese2=diff(log(kwese1))
  kwese3=log(kwese1)
  
